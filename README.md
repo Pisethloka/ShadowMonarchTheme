@@ -16,7 +16,7 @@ This is the default dark theme. It features a deep purple-black canvas that is m
 * **Editor Background**: `#0D0A1A`
 * **Best for**: Daily coding in standard workspace lighting.
 
-![Shadow Monarch Void](images/void.png)
+![Shadow Monarch Void](https://raw.githubusercontent.com/Pisethloka/ShadowMonarchTheme/main/images/void.png)
 
 ### Shadow Monarch Abyss
 For night sessions or high-contrast fans. Abyss strips the background luminance down to an absolute pitch black. This makes the electric purple keywords and neon cyan strings pop like active shadow extraction magic, offering a very stark, glowing contrast.
@@ -24,7 +24,7 @@ For night sessions or high-contrast fans. Abyss strips the background luminance 
 * **Editor Background**: `#05040B`
 * **Best for**: Pitch-dark rooms or if you prefer pure black themes.
 
-![Shadow Monarch Abyss](images/abyss.png)
+![Shadow Monarch Abyss](https://raw.githubusercontent.com/Pisethloka/ShadowMonarchTheme/main/images/abyss.png)
 
 ### Shadow Monarch Light
 A clean, pastel counterpart built for bright workspaces. It uses a soft lavender-white base and replaces the neon syntax with highly legible deep indigo, dark violet, warm gold, and emerald green. It keeps the purple family aesthetic but makes it comfortable to read in direct sunlight.
@@ -32,7 +32,7 @@ A clean, pastel counterpart built for bright workspaces. It uses a soft lavender
 * **Editor Background**: `#F5F3FF`
 * **Best for**: Bright offices or working outdoors.
 
-![Shadow Monarch Light](images/light.png)
+![Shadow Monarch Light](https://raw.githubusercontent.com/Pisethloka/ShadowMonarchTheme/main/images/light.png)
 
 ### Shadow Monarch Twilight
 If you want the clarity of a light theme but find bright white backgrounds too harsh, Twilight is a softer, dusty lavender-gray alternative. It drops the overall contrast and reduces glare to keep eye strain to a minimum.
@@ -40,7 +40,7 @@ If you want the clarity of a light theme but find bright white backgrounds too h
 * **Editor Background**: `#E0DBEC`
 * **Best for**: Extended daytime coding under fluorescent lights.
 
-![Shadow Monarch Twilight](images/twilight.png)
+![Shadow Monarch Twilight](https://raw.githubusercontent.com/Pisethloka/ShadowMonarchTheme/main/images/twilight.png)
 
 ---
 
