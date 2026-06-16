@@ -2,79 +2,77 @@
 
 *“Arise.”*
 
-Bring the power of the Shadow Monarch directly into your workspace. Inspired by **Sung Jin-woo** and the iconic UI of *Solo Leveling*, this extension contains **four premium theme variants** designed for maximum focus, comfort, and visual hierarchy.
+I built this theme family for developers who want a clean, focused coding environment themed around Sung Jin-woo and the system interface in *Solo Leveling*. The goal was to capture that shadow-magic aesthetic—void darkness, glowing electric violets, and system-window cyans—without sacrificing readability or causing eye strain during long sessions.
+
+The extension bundles four distinct variants (two dark, two light) designed for different lighting conditions and personal preferences.
 
 ---
 
-## 🌌 The Variants
+## The Variants
 
-Each variant is tuned for a different coding environment and lighting condition, utilizing the distinct color palette of the Solo Leveling System.
+### Shadow Monarch (Void)
+This is the default dark theme. It features a deep purple-black canvas that is much softer on the eyes than pure black. The syntax highlighting maps electric purple to keywords, radiant gold to functions, and status-window cyan to strings. It mimics the holographic popups of the Solo Leveling system while keeping contrast high enough for easy scanning.
 
-### 🔮 Shadow Monarch (Void — Default Dark)
-The signature look. Designed for daily coding, **Void** places your code against a deep, purple-toned black background. High-readability syntax highlighting maps electric purple to keywords, radiant gold to functions, and glowing cyan to strings, mimicking the holographic System status window.
-
-* **Editor Background**: `#0D0A1A` (Deep void black)
-* **Best Suited For**: Day-to-day coding in standard lighting.
+* **Editor Background**: `#0D0A1A`
+* **Best for**: Daily coding in standard workspace lighting.
 
 ![Shadow Monarch Void](images/void.png)
 
-### 💀 Shadow Monarch Abyss (Ultra Dark)
-For when you descend into the deepest dungeons. **Abyss** darkens the canvas to an absolute pitch-black background. By stripping away background luminance, it makes the neon cyan strings and electric purple keywords glow like active shadow-soldier extraction magic.
+### Shadow Monarch Abyss
+For night sessions or high-contrast fans. Abyss strips the background luminance down to an absolute pitch black. This makes the electric purple keywords and neon cyan strings pop like active shadow extraction magic, offering a very stark, glowing contrast.
 
-* **Editor Background**: `#05040B` (Absolute abyssal black)
-* **Best Suited For**: Night coding sessions and high-contrast preferences.
+* **Editor Background**: `#05040B`
+* **Best for**: Pitch-dark rooms or if you prefer pure black themes.
 
 ![Shadow Monarch Abyss](images/abyss.png)
 
-### 🌸 Shadow Monarch Light (Pastel Light)
-A light-mode counterpart styled in the lavender family. **Light** provides a clean, soft pastel lavender-white workspace. It features high-contrast indigo, deep violet, warm gold, and emerald green syntax colors that make reading code easy on the eyes in bright rooms.
+### Shadow Monarch Light
+A clean, pastel counterpart built for bright workspaces. It uses a soft lavender-white base and replaces the neon syntax with highly legible deep indigo, dark violet, warm gold, and emerald green. It keeps the purple family aesthetic but makes it comfortable to read in direct sunlight.
 
-* **Editor Background**: `#F5F3FF` (Soft lavender-white)
-* **Best Suited For**: Working in bright rooms or outdoors.
+* **Editor Background**: `#F5F3FF`
+* **Best for**: Bright offices or working outdoors.
 
 ![Shadow Monarch Light](images/light.png)
 
-### 🌆 Shadow Monarch Twilight (Twilight Gray)
-A low-strain, mid-contrast light theme. **Twilight** uses a dusty lavender-gray background that eliminates harsh blue-light reflections. It offers a relaxed, lower-contrast alternative for users who want the clarity of a light theme without the glare.
+### Shadow Monarch Twilight
+If you want the clarity of a light theme but find bright white backgrounds too harsh, Twilight is a softer, dusty lavender-gray alternative. It drops the overall contrast and reduces glare to keep eye strain to a minimum.
 
-* **Editor Background**: `#E0DBEC` (Dusty lavender-gray)
-* **Best Suited For**: Daytime coding with reduced eye fatigue.
+* **Editor Background**: `#E0DBEC`
+* **Best for**: Extended daytime coding under fluorescent lights.
 
 ![Shadow Monarch Twilight](images/twilight.png)
 
 ---
 
-## Token & Syntax Color Palette (Void/Abyss Dark Models)
+## UI and Sidebar Adjustments
 
-| Color | Hex | Syntax / Tokens | Role in Solo Leveling |
-| :--- | :--- | :--- | :--- |
-| **Electric Violet** | `#A78BFA` | Keywords, control flow, import/export, HTML tags. | Aura of the Shadow Monarch |
-| **Radiant Gold** | `#FBBF24` | Functions, method calls, React hooks, decorators, list hovers. | Golden key / Quest systems |
-| **Status Window Cyan** | `#38BDF8` | Strings, template literals, JSON values, CSS values. | Glowing holographic stat screens |
-| **Blood Red** | `#F43F5E` | Numbers, booleans, constants (`true`, `false`, `null`). | Jin-woo's eyes & high-threat warnings |
-| **System Green** | `#34D399` | Comments (*italic*), docstrings. | Healing potions & passive buff displays |
-| **Pale Lavender** | `#E2D9F3` | Variable names, parameters, plain text, CSS selectors, operators. | Cold silver shadow energy |
-| **Glowing Blue-Purple**| `#818CF8` | Punctuation, delimiters, brackets, JSX attributes. | Shadow soldier energy |
+I made sure the Explorer sidebar and editor chrome felt clean and structured rather than a generic dark block:
+* **Separation**: A glowing violet border (`#2D1B69B3`) divides the editor from the sidebar, which has its own absolute dark background (`#0A0812`) for depth.
+* **Tree Guides**: Indent guides in the file explorer use a muted purple (`#4C3A7A99`), with the active folder path highlighted in electric violet (`#7C3AED`).
+* **Hover States**: Hovering over files in the explorer tree highlights them in a glowing gold (`#FBBF24`), making the UI feel responsive.
+* **Scrollbars & Highlights**: Subtle scrollbar sliders (`#2D1B69`) and selections (`#2D1B69B3` at 70% opacity) prevent visual clutter.
 
 ---
 
-## Installation & Setup
+## Syntax Color Mappings (Dark Variants)
 
-To install **Shadow Monarch** manually:
+| Hex | Role | Visual Concept |
+| :--- | :--- | :--- |
+| `#A78BFA` | Keywords, control flow, imports, HTML tags | Jin-woo's purple aura |
+| `#FBBF24` | Functions, methods, React hooks, hovers | System keys and quest highlights |
+| `#38BDF8` | Strings, template literals, JSON/CSS values | Holographic status screens |
+| `#F43F5E` | Numbers, booleans, constants | Jin-woo's eyes / Danger warnings |
+| `#34D399` | Comments (*italic*), docstrings | Healing potions / Passive buffs |
+| `#E2D9F3` | Variables, parameters, plain text | Silver-gray shadow energy |
+| `#818CF8` | Punctuation, delimiters, JSX attributes | Shadow soldier energy |
 
-### Step 1: Copy folder to Extensions directory
-Copy the containing folder into the appropriate extensions folder:
+---
 
-* **VS Code (Standard)**:
-  - **Windows**: `%USERPROFILE%\.vscode\extensions\shadow-monarch`
-  - **macOS/Linux**: `~/.vscode/extensions/shadow-monarch`
-  
-* **VS Code Insiders**:
-  - **Windows**: `%USERPROFILE%\.vscode-insiders\extensions\shadow-monarch`
-  - **macOS/Linux**: `~/.vscode-insiders/extensions/shadow-monarch`
+## Installation
 
-### Step 2: Reload window
-Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) in VS Code, run **Developer: Reload Window**, and press **Enter**.
+### Manual Install
+If you aren't installing directly from the marketplace, copy the theme folder into your extensions directory:
+* **Windows**: Copy to `%USERPROFILE%\.vscode\extensions\shadow-monarch` (or `.vscode-insiders` for Insiders)
+* **macOS / Linux**: Copy to `~/.vscode/extensions/shadow-monarch` (or `.vscode-insiders` for Insiders)
 
-### Step 3: Activate theme
-Press **`Ctrl+K` then `Ctrl+T`** (or go to **Preferences: Color Theme** via the Gear icon), search for **Shadow Monarch**, and select any of the 4 variations!
+After copying the files, open the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P`), run **Developer: Reload Window**, and then select **Shadow Monarch** from the color theme list (`Ctrl+K Ctrl+T`).
