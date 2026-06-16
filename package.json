@@ -1,0 +1,43 @@
+{
+  "name": "your-shadow-monarch",
+  "displayName": "Shadow Monarch Abyss",
+  "description": "A premium VS Code theme family inspired by Sung Jin-woo from Solo Leveling. Includes Void, Abyss, Light, and Twilight variants.",
+  "version": "0.1.4",
+  "publisher": "PisethLokaa",
+  "author": "PisethLokaa",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pisethloka/ShadowMonarchTheme"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Shadow Monarch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shadow-monarch-color-theme.json"
+      },
+      {
+        "label": "Shadow Monarch Abyss",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shadow-monarch-abyss-color-theme.json"
+      },
+      {
+        "label": "Shadow Monarch Light",
+        "uiTheme": "vs",
+        "path": "./themes/shadow-monarch-light-color-theme.json"
+      },
+      {
+        "label": "Shadow Monarch Twilight",
+        "uiTheme": "vs",
+        "path": "./themes/shadow-monarch-twilight-color-theme.json"
+      }
+    ]
+  }
+}
