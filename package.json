@@ -1,14 +1,31 @@
 {
   "name": "your-shadow-monarch",
   "displayName": "Shadow Monarch Abyss",
-  "description": "A premium VS Code theme family inspired by Sung Jin-woo from Solo Leveling. Includes Void, Abyss, Light, and Twilight variants.",
-  "version": "0.1.5",
+  "description": "A premium VS Code theme family inspired by Sung Jin-woo from Solo Leveling. Includes Void, Abyss, Light, Twilight, Ember, and Dawn variants.",
+  "version": "0.2.0",
   "publisher": "PisethLokaa",
   "author": "PisethLokaa",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Pisethloka/ShadowMonarchTheme"
+  },
+  "bugs": {
+    "url": "https://github.com/Pisethloka/ShadowMonarchTheme/issues"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "solo leveling",
+    "shadow monarch",
+    "purple",
+    "ember",
+    "dawn"
+  ],
+  "galleryBanner": {
+    "color": "#0D0A1A",
+    "theme": "dark"
   },
   "engines": {
     "vscode": "^1.75.0"
@@ -29,6 +46,11 @@
         "path": "./themes/shadow-monarch-abyss-color-theme.json"
       },
       {
+        "label": "Shadow Monarch Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shadow-monarch-ember-color-theme.json"
+      },
+      {
         "label": "Shadow Monarch Light",
         "uiTheme": "vs",
         "path": "./themes/shadow-monarch-light-color-theme.json"
@@ -37,6 +59,11 @@
         "label": "Shadow Monarch Twilight",
         "uiTheme": "vs",
         "path": "./themes/shadow-monarch-twilight-color-theme.json"
+      },
+      {
+        "label": "Shadow Monarch Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/shadow-monarch-dawn-color-theme.json"
       }
     ]
   }

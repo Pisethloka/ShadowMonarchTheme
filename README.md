@@ -1,10 +1,10 @@
 # Shadow Monarch (Solo Leveling Theme)
 
-*“Arise.”*
+*"Arise."*
 
 I designed this theme family for developers who want a clean, focused coding environment themed around Sung Jin woo and the system interface in *Solo Leveling*. The main goal was to capture that iconic shadow magic aesthetic—void darkness, glowing electric violets, and system window cyans—without causing eye strain during long sessions.
 
-The extension bundles four distinct variants (two dark, two light) to fit different lighting conditions and personal setups.
+The extension bundles six distinct variants (three dark, three light) to fit different lighting conditions, personal setups, and color preferences.
 
 ---
 
@@ -26,6 +26,14 @@ For night sessions or high contrast preferences. Abyss darkens the canvas to an 
 
 ![Shadow Monarch Abyss](https://raw.githubusercontent.com/Pisethloka/ShadowMonarchTheme/main/images/abyss.png)
 
+### Shadow Monarch Ember
+A dark theme with its accent shifted from violet toward deep red orange ember tones. The backgrounds stay in the same near black family as Void and Abyss, but the syntax palette trades purple aura for fiery ember glow. Keywords burn in bright orange, types smolder in warm amber, and the overall feel is like coding by firelight.
+
+* **Editor Background**: `#100A0A`
+* **Best for**: Developers who love dark themes but prefer warm tones over cool purples.
+
+![Shadow Monarch Ember](https://raw.githubusercontent.com/Pisethloka/ShadowMonarchTheme/main/images/ember.png)
+
 ### Shadow Monarch Light
 A light mode counterpart styled in the lavender family. Light provides a clean, soft pastel lavender white workspace. It features high contrast indigo, deep violet, warm gold, and emerald green syntax colors that make reading code very comfortable in bright rooms.
 
@@ -41,6 +49,14 @@ If you want the clarity of a light theme but find bright white backgrounds too h
 * **Best for**: Extended daytime coding under fluorescent lights.
 
 ![Shadow Monarch Twilight](https://raw.githubusercontent.com/Pisethloka/ShadowMonarchTheme/main/images/twilight.png)
+
+### Shadow Monarch Dawn
+A light theme with its accent shifted from lavender toward warm cream and gold. The backgrounds use soft parchment tones instead of cool lavender whites. Keywords glow in deep amber, functions darken to burnt orange, and the whole palette feels like golden hour sunlight on paper.
+
+* **Editor Background**: `#FFFBF0`
+* **Best for**: Developers who prefer light themes with warm, earthy tones.
+
+![Shadow Monarch Dawn](https://raw.githubusercontent.com/Pisethloka/ShadowMonarchTheme/main/images/dawn.png)
 
 ---
 
@@ -65,6 +81,27 @@ I made sure the Explorer sidebar and editor chrome felt clean and structured rat
 | `#34D399` | Comments (*italic*), docstrings | Healing potions / Passive buffs |
 | `#E2D9F3` | Variables, parameters, plain text | Silver gray shadow energy |
 | `#818CF8` | Punctuation, delimiters, JSX attributes | Shadow soldier energy |
+
+### Ember Variant Accents
+
+| Hex | Role | Visual Concept |
+| :--- | :--- | :--- |
+| `#F97316` | Keywords, control flow, imports, HTML tags | Ember flame |
+| `#FBBF24` | Functions, methods, React hooks | Molten gold |
+| `#38BDF8` | Strings, template literals, JSON/CSS values | Cool contrast |
+| `#EF4444` | Numbers, booleans, constants | Burning red |
+| `#34D399` | Comments (*italic*), docstrings | Forest underglow |
+| `#F3E2D9` | Variables, parameters, plain text | Warm cream |
+| `#F87171` | Punctuation, delimiters, JSX attributes | Soft ember |
+
+---
+
+## New in v0.2.0
+
+* **Semantic Token Highlighting**: All 6 themes now support enhanced semantic highlighting for readonly variables, parameters, properties, function declarations, classes, and enum members.
+* **Chat Panel Colors**: Full Copilot and AI chat panel theming across all variants.
+* **Bracket Pair Colorization**: Six levels of bracket nesting, each mapped to a different accent color from the theme palette. Nesting depth reads as a visual rank progression.
+* **Two New Variants**: Ember (dark, warm red orange) and Dawn (light, warm cream gold).
 
 ---
 
