@@ -96,12 +96,23 @@ I made sure the Explorer sidebar and editor chrome felt clean and structured rat
 
 ---
 
-## New in v0.2.0
+## What's New in v0.2.0
 
-* **Semantic Token Highlighting**: All 6 themes now support enhanced semantic highlighting for readonly variables, parameters, properties, function declarations, classes, and enum members.
-* **Chat Panel Colors**: Full Copilot and AI chat panel theming across all variants.
-* **Bracket Pair Colorization**: Six levels of bracket nesting, each mapped to a different accent color from the theme palette. Nesting depth reads as a visual rank progression.
-* **Two New Variants**: Ember (dark, warm red orange) and Dawn (light, warm cream gold).
+Version 0.2.0 is a major update that brings several highly requested UI enhancements, deeper editor styling, and two brand new theme variants.
+
+### Semantic Highlight Upgrades
+We have enabled `"semanticHighlighting": true` across all six themes. Now, VS Code will use language servers to resolve scopes more precisely. Readonly variables, function declarations, parameters, properties, classes, and enum members get their own distinct styling rules. Function declarations are now bolded to make your codebase entry points immediately recognizable, and readonly values use distinct accent colors to stand out from standard variables.
+
+### Integrated Chat Panel Theme
+For developers using Copilot, Gemini, or other AI chat assistants in VS Code, we fully themed the chat panel. We styled request blocks, borders, avatar backgrounds, and slash commands to blend in with each theme's core palette. The chat sidebars now look like a native part of the interface rather than an unstyled plugin window.
+
+### Bracket Pair Colorization & Guides
+To help keep track of deep nesting without getting lost in nested braces, we added full styling for bracket pair colorization and guides. 
+* **Nesting Colors**: Brackets transition through six distinct colors based on their nesting level, using the theme's accent palette. 
+* **Pair Guides**: Vertical lines connect bracket pairs, with active guides highlighted at full opacity (`66` alpha) and background guides softly visible (`1A` alpha).
+
+### The Ember and Dawn Variants
+We expanded the family from four themes to six by introducing **Ember** (our third dark variant) and **Dawn** (our third light variant). Both are built for developers who prefer warm, earthy tones (red orange firelight and golden parchment) instead of the cool lavender and purple hues of the original variants.
 
 ---
 
