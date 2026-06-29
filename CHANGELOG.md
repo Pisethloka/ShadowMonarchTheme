@@ -2,6 +2,11 @@
 
 All notable changes to the Shadow Monarch theme extension will be documented in this file.
 
+## [0.2.1] — 2026-06-29
+
+### Changed
+- Updated extension logo to new premium Shadow Monarch artwork
+
 ## [0.2.0] — 2026-06-24
 
 ### Added
