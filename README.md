@@ -91,11 +91,18 @@ Shadow Monarch includes tailored syntax highlighting rules for a wide variety of
 
 ## What's New in v0.3.0
 
-Version 0.3.0 is a major release expanding the theme family and adding deep syntax coverage:
+Version 0.3.0 is a massive update that expands our theme family to eight variants, adds dedicated syntax highlighting for over a dozen popular programming languages, and brings full support for modern VS Code workbench features.
 
-* **Two New Character Variants**: Added **Shadow Monarch Igris** (Blood Red & Steel) and **Shadow Monarch Frost** (Glacial Cyan & Ice Blue).
-* **Multi-Language Syntax Coverage**: Added dedicated syntax scopes for Python, Rust, Go, Vue, Svelte, Tailwind CSS, SQL, Docker, YAML, and Shell.
-* **Modern Workbench UI Integration**: Added support for Editor Sticky Scroll (`editorStickyScroll.background`), Command Center title bar search, Copilot ghost text (`editorGhostText.foreground`), split diff highlights, and Test Explorer status icons.
+### Shadow Monarch Igris & Frost
+We introduced two brand new dark variants inspired by iconic characters and elements from Solo Leveling:
+* **Igris**: Styled after the Red Knight Commander. Built on a dark metallic steel background with vivid blood red keywords, crimson flame tags, and molten gold function declarations.
+* **Frost**: Styled after the Frost Monarch. Built on a glacial deep ice black canvas with vibrant electric cyan keywords, frost blue strings, and ice crystal type definitions.
+
+### Multi-Language Syntax Coverage
+We expanded our TextMate color mapping to give first class syntax highlighting to non JavaScript languages. Python developers get specific colors for `@decorators`, `self`/`cls`, type hints, and docstrings. Rust files get custom styling for lifetimes (`'a`), macros (`vec!`, `println!`), attributes (`#[derive]`), and traits. Go files get highlighted channels and goroutines. Vue, Svelte, Tailwind CSS class strings, SQL queries, Dockerfiles, YAML, and Shell scripts all receive dedicated color mappings tailored to fit the Shadow Monarch theme aesthetic.
+
+### Workbench UI Enhancements
+We added support for modern VS Code interface elements, including Editor Sticky Scroll header backgrounds, Command Center search bar colors, AI Copilot ghost text, split diff editor highlights, and Test Explorer status icons.
 
 ---
 
