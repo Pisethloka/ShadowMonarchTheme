@@ -2,6 +2,14 @@
 
 All notable changes to the Shadow Monarch theme extension will be documented in this file.
 
+## [0.3.0] — 2026-07-22
+
+### Added
+- Expanded syntax highlighting for Python (`@decorators`, `self`/`cls`, type hints, docstrings), Rust (lifetimes, macros, attributes, traits), Go (channels, goroutines, raw strings), Vue & Svelte (SFC tags & directives), Tailwind CSS (class names), SQL, Docker, YAML, and Shell script variables.
+- New theme variant: **Shadow Monarch Igris** (Dark metallic steel black with blood red and crimson knight accents).
+- New theme variant: **Shadow Monarch Frost** (Glacial deep ice black with electric cyan and frost blue accents).
+- Modern Workbench UI colors across all themes: `editorStickyScroll.background`, `commandCenter.background`, `editorGhostText.foreground`, `diffEditor.insertedTextBackground`, `diffEditor.removedTextBackground`, and `testing` status icons.
+
 ## [0.2.1] — 2026-06-29
 
 ### Changed

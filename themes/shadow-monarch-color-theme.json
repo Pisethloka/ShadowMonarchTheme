@@ -134,7 +134,33 @@
     "editorBracketPairGuide.background3": "#38BDF81A",
     "editorBracketPairGuide.background4": "#F43F5E1A",
     "editorBracketPairGuide.background5": "#34D3991A",
-    "editorBracketPairGuide.background6": "#818CF81A"
+    "editorBracketPairGuide.background6": "#818CF81A",
+    "editorStickyScroll.background": "#110D22",
+    "editorStickyScrollHover.background": "#1A1535",
+    "commandCenter.background": "#110D22",
+    "commandCenter.activeBackground": "#1A1535",
+    "commandCenter.border": "#2D1B6980",
+    "editorGhostText.foreground": "#C4B5FD66",
+    "diffEditor.insertedTextBackground": "#10B98133",
+    "diffEditor.removedTextBackground": "#F43F5E33",
+    "testing.iconPassed": "#10B981",
+    "testing.iconFailed": "#F43F5E",
+    "testing.iconQueued": "#FBBF24",
+    "editorIndentGuide.background": "#47556933",
+    "editorIndentGuide.activeBackground": "#E11D48",
+    "editorGuide.background": "#47556933",
+    "editorGuide.activeBackground": "#E11D48",
+    "editorStickyScroll.border": "#E11D4833",
+    "commandCenter.foreground": "#E2E8F0",
+    "commandCenter.activeForeground": "#FFFFFF",
+    "editorGhostText.background": "#00000000",
+    "diffEditor.insertedLineBackground": "#10B9811A",
+    "diffEditor.removedLineBackground": "#F43F5E1A",
+    "diffEditor.diagonalFill": "#4755694D",
+    "testing.iconUnset": "#94A3B8",
+    "testing.iconSkipped": "#64748B",
+    "testing.runAction": "#10B981",
+    "testing.peekBorder": "#E11D48"
   },
   "tokenColors": [
     {
@@ -451,15 +477,259 @@
       "settings": {
         "foreground": "#38BDF8"
       }
+    },
+    {
+      "name": "Python - Decorators",
+      "scope": [
+        "meta.decorator.python",
+        "entity.name.function.decorator.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#FBBF24",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python - Self & Cls",
+      "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function.language.special.cls.python",
+        "variable.language.special.self.python",
+        "variable.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#A78BFA",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python - Type Hints",
+      "scope": [
+        "meta.type.annotation.python",
+        "entity.name.type.python",
+        "support.type.python"
+      ],
+      "settings": {
+        "foreground": "#C4B5FD",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python - Docstrings",
+      "scope": [
+        "string.quoted.docstring.multi.python",
+        "string.quoted.docstring.raw.python",
+        "string.quoted.third-party.python"
+      ],
+      "settings": {
+        "foreground": "#34D399",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust - Lifetimes",
+      "scope": [
+        "storage.modifier.lifetime.rust",
+        "entity.name.type.lifetime.rust",
+        "punctuation.definition.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#FBBF24",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust - Macros",
+      "scope": [
+        "entity.name.function.macro.rust",
+        "support.macro.rust",
+        "punctuation.definition.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#FBBF24",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Rust - Attributes",
+      "scope": [
+        "meta.attribute.rust",
+        "entity.name.attribute.rust",
+        "punctuation.definition.attribute.rust"
+      ],
+      "settings": {
+        "foreground": "#818CF8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust - Traits",
+      "scope": [
+        "entity.name.type.trait.rust"
+      ],
+      "settings": {
+        "foreground": "#C4B5FD",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Go - Channels",
+      "scope": [
+        "keyword.operator.channel.go",
+        "keyword.channel.go"
+      ],
+      "settings": {
+        "foreground": "#A78BFA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Go - Goroutines",
+      "scope": [
+        "keyword.goroutine.go"
+      ],
+      "settings": {
+        "foreground": "#A78BFA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Go - Raw Strings",
+      "scope": [
+        "string.quoted.raw.go"
+      ],
+      "settings": {
+        "foreground": "#38BDF8"
+      }
+    },
+    {
+      "name": "Vue & Svelte - SFC Tags",
+      "scope": [
+        "entity.name.tag.script.html",
+        "entity.name.tag.style.html",
+        "entity.name.tag.template.html",
+        "entity.name.tag.vue",
+        "entity.name.tag.svelte"
+      ],
+      "settings": {
+        "foreground": "#A78BFA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Vue & Svelte - Directives",
+      "scope": [
+        "entity.other.attribute-name.directive.vue",
+        "entity.other.attribute-name.directive.svelte",
+        "entity.other.attribute-name.vue",
+        "entity.other.attribute-name.svelte"
+      ],
+      "settings": {
+        "foreground": "#FBBF24",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Tailwind CSS - Class Names",
+      "scope": [
+        "entity.other.attribute-name.class.tailwindcss"
+      ],
+      "settings": {
+        "foreground": "#38BDF8"
+      }
+    },
+    {
+      "name": "SQL - DML/DDL Keywords",
+      "scope": [
+        "keyword.other.DML.sql",
+        "keyword.other.DDL.sql",
+        "keyword.other.sql",
+        "keyword.other.DML.II.sql"
+      ],
+      "settings": {
+        "foreground": "#A78BFA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "SQL - Functions",
+      "scope": [
+        "support.function.scalar.sql",
+        "support.function.aggregate.sql"
+      ],
+      "settings": {
+        "foreground": "#FBBF24"
+      }
+    },
+    {
+      "name": "SQL - Types",
+      "scope": [
+        "storage.type.sql",
+        "support.type.nullable.sql"
+      ],
+      "settings": {
+        "foreground": "#C4B5FD",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Docker - Instructions",
+      "scope": [
+        "keyword.other.special-method.dockerfile",
+        "entity.name.instruction.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#A78BFA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "YAML - Keys",
+      "scope": [
+        "entity.name.tag.yaml",
+        "meta.attribute.yaml",
+        "support.type.property-name.yaml"
+      ],
+      "settings": {
+        "foreground": "#A78BFA"
+      }
+    },
+    {
+      "name": "Shell - Variables",
+      "scope": [
+        "variable.other.normal.shell",
+        "variable.other.positional.shell",
+        "variable.other.special.shell",
+        "variable.other.bracket.shell",
+        "punctuation.definition.variable.shell"
+      ],
+      "settings": {
+        "foreground": "#E2D9F3"
+      }
     }
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "variable.readonly": { "foreground": "#C4B5FD" },
-    "parameter": { "foreground": "#E2D9F3" },
-    "property": { "foreground": "#93C5FD" },
-    "function.declaration": { "foreground": "#FBBF24", "bold": true },
-    "class": { "foreground": "#C4B5FD", "bold": true },
-    "enumMember": { "foreground": "#F43F5E" }
+    "variable.readonly": {
+      "foreground": "#C4B5FD"
+    },
+    "parameter": {
+      "foreground": "#E2D9F3"
+    },
+    "property": {
+      "foreground": "#93C5FD"
+    },
+    "function.declaration": {
+      "foreground": "#FBBF24",
+      "bold": true
+    },
+    "class": {
+      "foreground": "#C4B5FD",
+      "bold": true
+    },
+    "enumMember": {
+      "foreground": "#F43F5E"
+    }
   }
 }

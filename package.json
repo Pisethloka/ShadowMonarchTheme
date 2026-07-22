@@ -1,8 +1,8 @@
 {
   "name": "your-shadow-monarch",
   "displayName": "Shadow Monarch Abyss",
-  "description": "A premium VS Code theme family inspired by Sung Jin-woo from Solo Leveling. Includes Void, Abyss, Light, Twilight, Ember, and Dawn variants.",
-  "version": "0.2.1",
+  "description": "A premium VS Code theme family inspired by Sung Jin-woo from Solo Leveling. Includes Void, Abyss, Ember, Igris, Frost, Light, Twilight, and Dawn variants.",
+  "version": "0.3.0",
   "publisher": "PisethLokaa",
   "author": "PisethLokaa",
   "icon": "images/icon.png",
@@ -21,7 +21,13 @@
     "shadow monarch",
     "purple",
     "ember",
-    "dawn"
+    "dawn",
+    "igris",
+    "frost",
+    "python",
+    "rust",
+    "go",
+    "tailwind"
   ],
   "galleryBanner": {
     "color": "#0D0A1A",
@@ -49,6 +55,16 @@
         "label": "Shadow Monarch Ember",
         "uiTheme": "vs-dark",
         "path": "./themes/shadow-monarch-ember-color-theme.json"
+      },
+      {
+        "label": "Shadow Monarch Igris",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shadow-monarch-igris-color-theme.json"
+      },
+      {
+        "label": "Shadow Monarch Frost",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shadow-monarch-frost-color-theme.json"
       },
       {
         "label": "Shadow Monarch Light",
