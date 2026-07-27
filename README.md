@@ -89,9 +89,15 @@ Shadow Monarch includes tailored syntax highlighting rules for a wide variety of
 
 ---
 
-## What's New in v0.3.0
+## What's New in v0.3.1
 
-Version 0.3.0 is a massive update that expands our theme family to eight variants, adds dedicated syntax highlighting for over a dozen popular programming languages, and brings full support for modern VS Code workbench features.
+Version 0.3.1 adds **Full Scope Block Background Fills** and **Rainbow Indent & Bracket Pair Guides** across all eight theme variants.
+
+### Scope Block Background Fills
+The entire rectangular space inside an active block (from top opening tag to bottom closing tag) receives a tinted background fill matching the color of that scope's vertical guide line.
+
+### Rainbow Indent Lines (All The Time)
+All vertical indent lines from left to right display distinct, low-opacity accent colors (Gold, Cyan, Purple, Red, Green, Indigo), providing clear visual hierarchy without distracting from your code.
 
 ### Shadow Monarch Igris & Frost
 We introduced two brand new dark variants inspired by iconic characters and elements from Solo Leveling:

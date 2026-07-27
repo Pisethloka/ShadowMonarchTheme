@@ -2,6 +2,12 @@
 
 All notable changes to the Shadow Monarch theme extension will be documented in this file.
 
+## [0.3.1] — 2026-07-27
+
+### Added
+- **Full Scope Block Background Fills**: Tinted background fill shading for code blocks (`editorBracketPairGuide.activeBackground1..6` & `background1..6`), matching the vertical guide line color from the top opening tag down to the closing tag.
+- **Rainbow Indent & Bracket Pair Guides**: Configured 6 distinct, low-opacity colors for all vertical guide lines from left to right across all 8 theme variants.
+
 ## [0.3.0] — 2026-07-27
 
 ### Added
