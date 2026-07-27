@@ -98,11 +98,11 @@ We introduced two brand new dark variants inspired by iconic characters and elem
 * **Igris**: Styled after the Red Knight Commander. Built on a dark metallic steel background with vivid blood red keywords, crimson flame tags, and molten gold function declarations.
 * **Frost**: Styled after the Frost Monarch. Built on a glacial deep ice black canvas with vibrant electric cyan keywords, frost blue strings, and ice crystal type definitions.
 
-### Multi-Language Syntax Coverage
-We expanded our TextMate color mapping to give first class syntax highlighting to non JavaScript languages. Python developers get specific colors for `@decorators`, `self`/`cls`, type hints, and docstrings. Rust files get custom styling for lifetimes (`'a`), macros (`vec!`, `println!`), attributes (`#[derive]`), and traits. Go files get highlighted channels and goroutines. Vue, Svelte, Tailwind CSS class strings, SQL queries, Dockerfiles, YAML, and Shell scripts all receive dedicated color mappings tailored to fit the Shadow Monarch theme aesthetic.
+### Semantic Token & Syntax Expansion
+We expanded our semantic token highlighting engine from 6 to 18 rules per theme, adding support for namespaces, interfaces, generic type parameters, enums, structs, decorators, macros, built-in standard library variables/functions, readonly properties, and methods. In addition, Python (`@decorators`, `self`/`cls`, docstrings), Rust (lifetimes, macros, attributes), Go, Vue, Svelte, Tailwind CSS, SQL, Dockerfiles, YAML, and Shell scripts all receive dedicated color mappings.
 
-### Workbench UI Enhancements
-We added support for modern VS Code interface elements, including Editor Sticky Scroll header backgrounds, Command Center search bar colors, AI Copilot ghost text, split diff editor highlights, and Test Explorer status icons.
+### Complete Workbench UI Coverage (208 Color Keys)
+Every theme now boasts 208 workbench UI color keys, providing complete theme coverage across VS Code: Minimap colors & highlights, Inlay Hints (TypeScript/Rust type & parameter hints), Diagnostics (error/warning/info squiggles & overview ruler markers), Peek View (definition & reference popups), Git Merge Conflict headers & Git Gutter indicators, Code Lens, Word Highlights, Symbol Icons, Toast Notifications, Debug Toolbar, Notebook Cells, Settings page, and Progress Bars.
 
 ---
 

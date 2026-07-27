@@ -2,13 +2,13 @@
 
 All notable changes to the Shadow Monarch theme extension will be documented in this file.
 
-## [0.3.0] — 2026-07-22
+## [0.3.0] — 2026-07-27
 
 ### Added
+- **49 New Workbench UI Color Keys** across all 8 themes (208 total UI keys per theme): Minimap (background, selection, highlights), Inlay Hints (types & parameters), Diagnostics (error/warning/info squiggles & overview ruler markers), Peek View (definition & reference popups), Git Merge Conflict headers & Git Gutter indicators, Code Lens, Word Highlights, Symbol Icons, Notifications, Debug Toolbar, Notebook Cells, Settings page, and Progress Bar.
+- **Expanded Semantic Token Colors (18 rules per theme)**: Full semantic token highlighting for namespaces, interfaces, type parameters, enums, structs, decorators, macros, built-in standard library variables/functions, readonly properties, and method declarations.
 - Expanded syntax highlighting for Python (`@decorators`, `self`/`cls`, type hints, docstrings), Rust (lifetimes, macros, attributes, traits), Go (channels, goroutines, raw strings), Vue & Svelte (SFC tags & directives), Tailwind CSS (class names), SQL, Docker, YAML, and Shell script variables.
-- New theme variant: **Shadow Monarch Igris** (Dark metallic steel black with blood red and crimson knight accents).
-- New theme variant: **Shadow Monarch Frost** (Glacial deep ice black with electric cyan and frost blue accents).
-- Modern Workbench UI colors across all themes: `editorStickyScroll.background`, `commandCenter.background`, `editorGhostText.foreground`, `diffEditor.insertedTextBackground`, `diffEditor.removedTextBackground`, and `testing` status icons.
+- Two new theme variants: **Shadow Monarch Igris** (Dark metallic steel black with blood red accents) and **Shadow Monarch Frost** (Glacial deep ice black with electric cyan accents).
 
 ## [0.2.1] — 2026-06-29
 

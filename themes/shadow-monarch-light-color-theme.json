@@ -160,7 +160,56 @@
     "testing.iconUnset": "#94A3B8",
     "testing.iconSkipped": "#64748B",
     "testing.runAction": "#10B981",
-    "testing.peekBorder": "#E11D48"
+    "testing.peekBorder": "#E11D48",
+    "minimap.background": "#EDE9FE80",
+    "minimap.selectionHighlight": "#7C3AED99",
+    "minimap.findMatchHighlight": "#D97706CC",
+    "minimap.errorHighlight": "#DC2626CC",
+    "minimap.warningHighlight": "#D97706CC",
+    "editorInlayHint.background": "#DDD6FE80",
+    "editorInlayHint.foreground": "#4C1D95AA",
+    "editorInlayHint.typeForeground": "#7C3AEDAA",
+    "editorInlayHint.parameterForeground": "#0284C7AA",
+    "notebook.cellBorderColor": "#C4B5FD",
+    "notebook.focusedCellBorder": "#7C3AED",
+    "debugToolBar.background": "#EDE9FE",
+    "editorError.foreground": "#DC2626",
+    "editorWarning.foreground": "#D97706",
+    "editorInfo.foreground": "#0284C7",
+    "editorOverviewRuler.errorForeground": "#DC2626",
+    "editorOverviewRuler.warningForeground": "#D97706",
+    "editorOverviewRuler.infoForeground": "#0284C7",
+    "peekView.border": "#7C3AED",
+    "peekViewEditor.background": "#F5F3FF",
+    "peekViewResult.background": "#EDE9FE",
+    "peekViewTitle.background": "#EDE9FE",
+    "peekViewResult.selectionBackground": "#C4B5FD80",
+    "peekViewResult.selectionForeground": "#2E1065",
+    "peekViewEditor.matchHighlightBackground": "#D9770644",
+    "peekViewResult.matchHighlightBackground": "#D9770644",
+    "merge.currentHeaderBackground": "#05966940",
+    "merge.incomingHeaderBackground": "#0284C740",
+    "merge.border": "#7C3AED80",
+    "editorGutter.addedBackground": "#059669",
+    "editorGutter.modifiedBackground": "#D97706",
+    "editorGutter.deletedBackground": "#DC2626",
+    "editorCodeLens.foreground": "#8E82B5",
+    "editor.wordHighlightBackground": "#7C3AED22",
+    "editor.wordHighlightStrongBackground": "#7C3AED44",
+    "symbolIcon.classForeground": "#7C3AED",
+    "symbolIcon.functionForeground": "#D97706",
+    "symbolIcon.variableForeground": "#2E1065",
+    "tab.lastPinnedBorder": "#7C3AED",
+    "welcomePage.tileBackground": "#EDE9FE",
+    "settings.headerForeground": "#2E1065",
+    "settings.modifiedItemIndicator": "#7C3AED",
+    "notifications.background": "#F5F3FF",
+    "notifications.foreground": "#2E1065",
+    "notifications.border": "#C4B5FD",
+    "notificationCenterHeader.background": "#EDE9FE",
+    "progressBar.background": "#7C3AED",
+    "textLink.foreground": "#7C3AED",
+    "textLink.activeForeground": "#6D28D9"
   },
   "tokenColors": [
     {
@@ -712,24 +761,67 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "variable.readonly": {
-      "foreground": "#5B21B6"
-    },
-    "parameter": {
       "foreground": "#4C1D95"
     },
+    "parameter": {
+      "foreground": "#2E1065"
+    },
     "property": {
-      "foreground": "#1D4ED8"
+      "foreground": "#0284C7"
     },
     "function.declaration": {
       "foreground": "#D97706",
       "bold": true
     },
     "class": {
-      "foreground": "#5B21B6",
+      "foreground": "#7C3AED",
       "bold": true
     },
     "enumMember": {
       "foreground": "#DC2626"
+    },
+    "namespace": {
+      "foreground": "#6D28D9"
+    },
+    "interface": {
+      "foreground": "#0284C7",
+      "italic": true
+    },
+    "typeParameter": {
+      "foreground": "#059669"
+    },
+    "enum": {
+      "foreground": "#4F46E5",
+      "bold": true
+    },
+    "struct": {
+      "foreground": "#7C3AED",
+      "bold": true
+    },
+    "decorator": {
+      "foreground": "#D97706",
+      "italic": true
+    },
+    "macro": {
+      "foreground": "#EA580C",
+      "bold": true
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#0369A1"
+    },
+    "function.defaultLibrary": {
+      "foreground": "#0369A1"
+    },
+    "property.readonly": {
+      "foreground": "#0284C7",
+      "italic": true
+    },
+    "variable.readonly.defaultLibrary": {
+      "foreground": "#0369A1",
+      "italic": true
+    },
+    "method": {
+      "foreground": "#D97706"
     }
   }
 }

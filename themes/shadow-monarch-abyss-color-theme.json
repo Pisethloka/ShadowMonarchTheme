@@ -160,7 +160,56 @@
     "testing.iconUnset": "#94A3B8",
     "testing.iconSkipped": "#64748B",
     "testing.runAction": "#10B981",
-    "testing.peekBorder": "#E11D48"
+    "testing.peekBorder": "#E11D48",
+    "minimap.background": "#03020680",
+    "minimap.selectionHighlight": "#C084FC99",
+    "minimap.findMatchHighlight": "#F59E0BCC",
+    "minimap.errorHighlight": "#E11D48CC",
+    "minimap.warningHighlight": "#F59E0BCC",
+    "editorInlayHint.background": "#150D2680",
+    "editorInlayHint.foreground": "#C4B5FDAA",
+    "editorInlayHint.typeForeground": "#C084FCAA",
+    "editorInlayHint.parameterForeground": "#38BDF8AA",
+    "notebook.cellBorderColor": "#2D1B69",
+    "notebook.focusedCellBorder": "#C084FC",
+    "debugToolBar.background": "#0B0813",
+    "editorError.foreground": "#E11D48",
+    "editorWarning.foreground": "#F59E0B",
+    "editorInfo.foreground": "#06B6D4",
+    "editorOverviewRuler.errorForeground": "#E11D48",
+    "editorOverviewRuler.warningForeground": "#F59E0B",
+    "editorOverviewRuler.infoForeground": "#06B6D4",
+    "peekView.border": "#C084FC",
+    "peekViewEditor.background": "#05040B",
+    "peekViewResult.background": "#0B0813",
+    "peekViewTitle.background": "#0B0813",
+    "peekViewResult.selectionBackground": "#2D1B69CC",
+    "peekViewResult.selectionForeground": "#E2D9F3",
+    "peekViewEditor.matchHighlightBackground": "#F59E0B44",
+    "peekViewResult.matchHighlightBackground": "#F59E0B44",
+    "merge.currentHeaderBackground": "#10B98155",
+    "merge.incomingHeaderBackground": "#06B6D455",
+    "merge.border": "#C084FC80",
+    "editorGutter.addedBackground": "#10B981",
+    "editorGutter.modifiedBackground": "#C084FC",
+    "editorGutter.deletedBackground": "#E11D48",
+    "editorCodeLens.foreground": "#C4B5FD99",
+    "editor.wordHighlightBackground": "#C084FC33",
+    "editor.wordHighlightStrongBackground": "#C084FC55",
+    "symbolIcon.classForeground": "#C4B5FD",
+    "symbolIcon.functionForeground": "#06B6D4",
+    "symbolIcon.variableForeground": "#E2D9F3",
+    "tab.lastPinnedBorder": "#C084FC",
+    "welcomePage.tileBackground": "#150D26",
+    "settings.headerForeground": "#E2D9F3",
+    "settings.modifiedItemIndicator": "#C084FC",
+    "notifications.background": "#0B0813",
+    "notifications.foreground": "#E2D9F3",
+    "notifications.border": "#2D1B69",
+    "notificationCenterHeader.background": "#030206",
+    "progressBar.background": "#C084FC",
+    "textLink.foreground": "#C084FC",
+    "textLink.activeForeground": "#C4B5FD"
   },
   "tokenColors": [
     {
@@ -712,24 +761,67 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "variable.readonly": {
-      "foreground": "#DDD6FE"
+      "foreground": "#C4B5FD"
     },
     "parameter": {
-      "foreground": "#DDD6FE"
+      "foreground": "#E2D9F3"
     },
     "property": {
-      "foreground": "#7DD3FC"
+      "foreground": "#93C5FD"
     },
     "function.declaration": {
-      "foreground": "#F59E0B",
+      "foreground": "#06B6D4",
       "bold": true
     },
     "class": {
-      "foreground": "#DDD6FE",
+      "foreground": "#C4B5FD",
       "bold": true
     },
     "enumMember": {
-      "foreground": "#FB7185"
+      "foreground": "#F43F5E"
+    },
+    "namespace": {
+      "foreground": "#C084FC"
+    },
+    "interface": {
+      "foreground": "#22D3EE",
+      "italic": true
+    },
+    "typeParameter": {
+      "foreground": "#2DD4BF"
+    },
+    "enum": {
+      "foreground": "#A5B4FC",
+      "bold": true
+    },
+    "struct": {
+      "foreground": "#C4B5FD",
+      "bold": true
+    },
+    "decorator": {
+      "foreground": "#F59E0B",
+      "italic": true
+    },
+    "macro": {
+      "foreground": "#FB923C",
+      "bold": true
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#38BDF8"
+    },
+    "function.defaultLibrary": {
+      "foreground": "#38BDF8"
+    },
+    "property.readonly": {
+      "foreground": "#93C5FD",
+      "italic": true
+    },
+    "variable.readonly.defaultLibrary": {
+      "foreground": "#38BDF8",
+      "italic": true
+    },
+    "method": {
+      "foreground": "#06B6D4"
     }
   }
 }

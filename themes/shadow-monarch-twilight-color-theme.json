@@ -160,7 +160,56 @@
     "testing.iconUnset": "#94A3B8",
     "testing.iconSkipped": "#64748B",
     "testing.runAction": "#10B981",
-    "testing.peekBorder": "#E11D48"
+    "testing.peekBorder": "#E11D48",
+    "minimap.background": "#C4B9D280",
+    "minimap.selectionHighlight": "#6D28D999",
+    "minimap.findMatchHighlight": "#B45309CC",
+    "minimap.errorHighlight": "#B91C1CCC",
+    "minimap.warningHighlight": "#B45309CC",
+    "editorInlayHint.background": "#C4B9D280",
+    "editorInlayHint.foreground": "#2E1065AA",
+    "editorInlayHint.typeForeground": "#6D28D9AA",
+    "editorInlayHint.parameterForeground": "#0369A1AA",
+    "notebook.cellBorderColor": "#B0A3C5",
+    "notebook.focusedCellBorder": "#6D28D9",
+    "debugToolBar.background": "#D3CBDF",
+    "editorError.foreground": "#B91C1C",
+    "editorWarning.foreground": "#B45309",
+    "editorInfo.foreground": "#0369A1",
+    "editorOverviewRuler.errorForeground": "#B91C1C",
+    "editorOverviewRuler.warningForeground": "#B45309",
+    "editorOverviewRuler.infoForeground": "#0369A1",
+    "peekView.border": "#6D28D9",
+    "peekViewEditor.background": "#E0DBEC",
+    "peekViewResult.background": "#D3CBDF",
+    "peekViewTitle.background": "#D3CBDF",
+    "peekViewResult.selectionBackground": "#B0A3C580",
+    "peekViewResult.selectionForeground": "#2E1065",
+    "peekViewEditor.matchHighlightBackground": "#B4530944",
+    "peekViewResult.matchHighlightBackground": "#B4530944",
+    "merge.currentHeaderBackground": "#04785740",
+    "merge.incomingHeaderBackground": "#0369A140",
+    "merge.border": "#6D28D980",
+    "editorGutter.addedBackground": "#047857",
+    "editorGutter.modifiedBackground": "#B45309",
+    "editorGutter.deletedBackground": "#B91C1C",
+    "editorCodeLens.foreground": "#7C6C9F",
+    "editor.wordHighlightBackground": "#6D28D922",
+    "editor.wordHighlightStrongBackground": "#6D28D944",
+    "symbolIcon.classForeground": "#6D28D9",
+    "symbolIcon.functionForeground": "#B45309",
+    "symbolIcon.variableForeground": "#2E1065",
+    "tab.lastPinnedBorder": "#6D28D9",
+    "welcomePage.tileBackground": "#D3CBDF",
+    "settings.headerForeground": "#2E1065",
+    "settings.modifiedItemIndicator": "#6D28D9",
+    "notifications.background": "#E0DBEC",
+    "notifications.foreground": "#2E1065",
+    "notifications.border": "#B0A3C5",
+    "notificationCenterHeader.background": "#D3CBDF",
+    "progressBar.background": "#6D28D9",
+    "textLink.foreground": "#6D28D9",
+    "textLink.activeForeground": "#5B21B6"
   },
   "tokenColors": [
     {
@@ -712,16 +761,16 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "variable.readonly": {
-      "foreground": "#6D28D9"
+      "foreground": "#2E1065"
     },
     "parameter": {
-      "foreground": "#312E81"
+      "foreground": "#2E1065"
     },
     "property": {
-      "foreground": "#2563EB"
+      "foreground": "#0369A1"
     },
     "function.declaration": {
-      "foreground": "#D97706",
+      "foreground": "#B45309",
       "bold": true
     },
     "class": {
@@ -729,7 +778,50 @@
       "bold": true
     },
     "enumMember": {
-      "foreground": "#E11D48"
+      "foreground": "#B91C1C"
+    },
+    "namespace": {
+      "foreground": "#5B21B6"
+    },
+    "interface": {
+      "foreground": "#0369A1",
+      "italic": true
+    },
+    "typeParameter": {
+      "foreground": "#047857"
+    },
+    "enum": {
+      "foreground": "#4338CA",
+      "bold": true
+    },
+    "struct": {
+      "foreground": "#6D28D9",
+      "bold": true
+    },
+    "decorator": {
+      "foreground": "#B45309",
+      "italic": true
+    },
+    "macro": {
+      "foreground": "#C2410C",
+      "bold": true
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#1D4ED8"
+    },
+    "function.defaultLibrary": {
+      "foreground": "#1D4ED8"
+    },
+    "property.readonly": {
+      "foreground": "#0369A1",
+      "italic": true
+    },
+    "variable.readonly.defaultLibrary": {
+      "foreground": "#1D4ED8",
+      "italic": true
+    },
+    "method": {
+      "foreground": "#B45309"
     }
   }
 }
