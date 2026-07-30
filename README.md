@@ -89,9 +89,17 @@ Shadow Monarch includes tailored syntax highlighting rules for a wide variety of
 
 ---
 
-## What's New in v0.3.1
+## What's New in v0.4.0
 
-Version 0.3.1 adds **Full Scope Block Background Fills** and **Rainbow Indent & Bracket Pair Guides** across all eight theme variants.
+Version 0.4.0 introduces a **Rich Syntax Color Spectrum** across all eight theme variants, increasing distinct token colors from 8 to up to 19 per theme and expanding rules to 51 per file.
+
+### Enhanced Color Variety
+Each theme now features dedicated, lore-aligned hues for:
+- **Control Flow Statements**: `if`, `for`, `return`, `try`, `await` stand out from standard storage keywords.
+- **Function Call Sites vs Declarations vs Built-ins**: Function calls (`fetch()`, `console.log()`) and declarations (`function foo()`) receive distinct visual treatment.
+- **Types, Interfaces, Enums & Structs**: Interfaces (`italic`), classes (`bold`), enums (`bold`), and structs are clearly differentiated.
+- **Regular Expressions (`string.regexp`)**: Dedicated regex literal highlighting.
+- **Parameters & Constants**: Dedicated colors for function parameters (`variable.parameter`) and readonly constants.
 
 ### Scope Block Background Fills
 The entire rectangular space inside an active block (from top opening tag to bottom closing tag) receives a tinted background fill matching the color of that scope's vertical guide line.
