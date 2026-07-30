@@ -89,9 +89,9 @@ Shadow Monarch includes tailored syntax highlighting rules for a wide variety of
 
 ---
 
-## What's New in v0.4.1
+## What's New in v0.4.0
 
-Version 0.4.1 brings **First-Class Frontend Syntax Highlighting** across all eight theme variants, adding dedicated styling rules for modern web development frameworks and tools.
+Version 0.4.0 introduces a **Rich Syntax Color Spectrum** and **First-Class Frontend Syntax Highlighting** across all eight theme variants, expanding rules to 59 per file and adding dedicated styling for modern web frameworks.
 
 ### Dedicated Frontend Variety (59 Rules per Theme)
 - **React & JSX / TSX**: Custom components (`<Button />`, `<Card />`), JSX props (`className`, `style`), and event handlers (`onClick`, `onChange`, `onSubmit`).
