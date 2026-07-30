@@ -89,9 +89,15 @@ Shadow Monarch includes tailored syntax highlighting rules for a wide variety of
 
 ---
 
-## What's New in v0.4.0
+## What's New in v0.4.1
 
-Version 0.4.0 introduces a **Rich Syntax Color Spectrum** across all eight theme variants, increasing distinct token colors from 8 to up to 19 per theme and expanding rules to 51 per file.
+Version 0.4.1 brings **First-Class Frontend Syntax Highlighting** across all eight theme variants, adding dedicated styling rules for modern web development frameworks and tools.
+
+### Dedicated Frontend Variety (59 Rules per Theme)
+- **React & JSX / TSX**: Custom components (`<Button />`, `<Card />`), JSX props (`className`, `style`), and event handlers (`onClick`, `onChange`, `onSubmit`).
+- **CSS / SCSS / LESS**: Property names vs property values, CSS units (`px`, `rem`, `em`, `%`), class selectors (`.btn`), ID selectors (`#app`), pseudo-classes (`:hover`, `:focus`), and CSS custom variables (`var(--primary)`).
+- **Tailwind CSS**: Utility class names vs variant modifiers (`hover:`, `focus:`, `dark:`, `md:`).
+- **Vue & Svelte**: Single File Component tags (`<template>`, `<script>`), Vue directives (`v-if`, `v-for`, `@click`), and Svelte directives (`on:click`, `bind:value`, `$:`) receive distinct accent styling.
 
 ### Enhanced Color Variety
 Each theme now features dedicated, lore-aligned hues for:

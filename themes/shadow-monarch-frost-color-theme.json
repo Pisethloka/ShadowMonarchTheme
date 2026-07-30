@@ -583,7 +583,9 @@
       "name": "JSX Custom Components",
       "scope": [
         "support.class.component.jsx",
-        "support.class.component.tsx"
+        "support.class.component.tsx",
+        "entity.name.tag.custom.jsx",
+        "entity.name.tag.custom.tsx"
       ],
       "settings": {
         "foreground": "#0891B2",
@@ -591,42 +593,166 @@
       }
     },
     {
-      "name": "JSX Attributes",
+      "name": "JSX Props & Attributes",
       "scope": [
         "entity.other.attribute-name.jsx",
-        "entity.other.attribute-name.tsx"
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.ts"
       ],
       "settings": {
         "foreground": "#FBBF24"
       }
     },
     {
+      "name": "JSX Event Handler Props",
+      "scope": [
+        "entity.other.attribute-name.event.jsx",
+        "entity.other.attribute-name.event.tsx"
+      ],
+      "settings": {
+        "foreground": "#38BDF8",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "CSS Properties",
       "scope": [
-        "support.type.property-name.css"
+        "support.type.property-name.css",
+        "support.type.property-name.scss",
+        "support.type.property-name.less"
       ],
       "settings": {
         "foreground": "#06B6D4"
       }
     },
     {
-      "name": "CSS Values",
+      "name": "CSS Values & Keywords",
       "scope": [
         "support.constant.property-value.css",
-        "meta.property-value.css"
+        "meta.property-value.css",
+        "support.constant.color.w3c-standard-color-name.css"
       ],
       "settings": {
         "foreground": "#67E8F9"
       }
     },
     {
-      "name": "CSS Selectors",
+      "name": "CSS Units & Numbers",
       "scope": [
-        "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.id.css"
+        "keyword.other.unit.css",
+        "keyword.other.unit.scss",
+        "constant.numeric.css"
       ],
       "settings": {
-        "foreground": "#0891B2"
+        "foreground": "#F43F5E"
+      }
+    },
+    {
+      "name": "CSS Class Selectors",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class.scss"
+      ],
+      "settings": {
+        "foreground": "#A5F3FC"
+      }
+    },
+    {
+      "name": "CSS ID Selectors",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id.scss"
+      ],
+      "settings": {
+        "foreground": "#FBBF24",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS Pseudo-Classes & Elements",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css"
+      ],
+      "settings": {
+        "foreground": "#60A5FA",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "CSS Variables / Custom Properties",
+      "scope": [
+        "variable.css",
+        "variable.argument.css",
+        "custom-property"
+      ],
+      "settings": {
+        "foreground": "#38BDF8"
+      }
+    },
+    {
+      "name": "CSS At-Rules (@media, @keyframes)",
+      "scope": [
+        "keyword.control.at-rule.media",
+        "keyword.control.at-rule.keyframes",
+        "keyword.control.at-rule.import"
+      ],
+      "settings": {
+        "foreground": "#38BDF8",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Tailwind CSS Utility Classes",
+      "scope": [
+        "entity.other.attribute-name.class.css.tailwindcss"
+      ],
+      "settings": {
+        "foreground": "#67E8F9"
+      }
+    },
+    {
+      "name": "Tailwind CSS Modifiers & Variants",
+      "scope": [
+        "entity.other.attribute-name.variant.tailwindcss"
+      ],
+      "settings": {
+        "foreground": "#38BDF8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Vue SFC Tags",
+      "scope": [
+        "entity.name.tag.template.html.vue",
+        "entity.name.tag.script.html.vue",
+        "entity.name.tag.style.html.vue"
+      ],
+      "settings": {
+        "foreground": "#2DD4BF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Vue Directives",
+      "scope": [
+        "entity.other.attribute-name.directive.vue"
+      ],
+      "settings": {
+        "foreground": "#2DD4BF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Svelte Directives & Declarations",
+      "scope": [
+        "entity.other.attribute-name.directive.svelte",
+        "punctuation.definition.reactive.svelte"
+      ],
+      "settings": {
+        "foreground": "#FBBF24",
+        "fontStyle": "italic"
       }
     },
     {
@@ -712,36 +838,6 @@
       "settings": {
         "foreground": "#38BDF8",
         "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Vue & Svelte - Directives",
-      "scope": [
-        "entity.other.attribute-name.directive.vue",
-        "entity.other.attribute-name.directive.svelte"
-      ],
-      "settings": {
-        "foreground": "#FBBF24",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Tailwind CSS - Classes",
-      "scope": [
-        "entity.other.attribute-name.class.css.tailwindcss"
-      ],
-      "settings": {
-        "foreground": "#67E8F9"
-      }
-    },
-    {
-      "name": "Tailwind CSS - Variants & Modifiers",
-      "scope": [
-        "entity.other.attribute-name.variant.tailwindcss"
-      ],
-      "settings": {
-        "foreground": "#06B6D4",
-        "fontStyle": "italic"
       }
     },
     {

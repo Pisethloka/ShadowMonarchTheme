@@ -2,6 +2,11 @@
 
 All notable changes to the Shadow Monarch theme extension will be documented in this file.
 
+## [0.4.1] — 2026-07-30
+
+### Added
+- **Rich Frontend Syntax Highlighting (59 Rules per Theme)**: Dedicated token coloring for React custom components (`<Header />`), JSX event props (`onClick`, `onChange`), CSS property names vs values vs units (`px`, `rem`, `%`), CSS class (`.class`) & ID (`#id`) selectors, pseudo-classes (`:hover`, `:focus`), CSS variables (`var(--bg)`), Tailwind utility classes & variants (`hover:`, `dark:`), Vue SFC tags & directives (`v-if`, `@click`), and Svelte directives (`on:click`, `bind:value`).
+
 ## [0.4.0] — 2026-07-30
 
 ### Added
