@@ -2,9 +2,17 @@
 
 All notable changes to the Shadow Monarch theme extension will be documented in this file.
 
-## [0.4.0] — 2026-07-30
+## [0.4.0] — 2026-09-04
 
-### Added
+### Added & Polished
+- **S-Tier Luminance & Hierarchy Polish**:
+  - **70/30 Neutral Balance**: Softened delimiters and punctuation (`() {} [] , ; :`) across all 8 variants to calm secondary tones, letting functions, identifiers, and keywords instantly pop out.
+  - **Atmospheric Line Aura**: Tuned `editor.lineHighlightBackground` from harsh 25% opacity down to an elegant ethereal wash (8-10% opacity) matching Catppuccin and Tokyo Night benchmarks.
+  - **Calm Indent Guides**: Muted inactive rainbow indent guides from noisy 27% stripes down to subtle depth (8% opacity), while retaining distinct glowing active block highlighting (`99` alpha).
+  - **Refined Comment Elegance**: Replaced loud neon green comments in dark variants with sophisticated, eye-friendly tones (smoldering ash `#8C7368` in Ember, glacial mist `#50889E` in Frost, mystic sage `#529B7C` in Void/Abyss).
+  - **LSP Semantic Parity**: Synchronized 18 semantic token rules with TextMate grammars to eliminate token flickering or repainting when language servers (TypeScript, Pylance, Rust-Analyzer) initialize.
+  - **Atmospheric Editor Details**: Added explicit styling for folding controls (`editorGutter.foldingControlForeground`), glowing links (`editorLink.activeForeground`), subtle column rulers, and whitespace indicators.
+- **4-Tier Depth Architecture (275 UI Keys per Theme)**: Complete elevation layering across all 8 themes (Crust `#07050E`, Mantle `#0A0816`, Base `#0D0A1A`, and floating Surface0/1/2 panels) with glowing command palette and modal dialogs.
 - **Rich Syntax Color Spectrum (59 Rules per Theme)**: Expanded TextMate token rules to 59 rules per theme, giving distinct color identities to control flow keywords, function declarations vs calls vs library built-ins, regular expressions (`string.regexp`), parameters, readonly constants, interfaces, enums, structs, decorators, template literal expressions, and dunder methods across all 8 theme variants.
 - **First-Class Frontend Syntax Highlighting**: Dedicated token coloring for React custom components (`<Header />`), JSX event props (`onClick`, `onChange`), CSS property names vs values vs units (`px`, `rem`, `%`), CSS class (`.class`) & ID (`#id`) selectors, pseudo-classes (`:hover`, `:focus`), CSS variables (`var(--bg)`), Tailwind utility classes & variants (`hover:`, `dark:`), Vue SFC tags & directives (`v-if`, `@click`), and Svelte directives (`on:click`, `bind:value`).
 

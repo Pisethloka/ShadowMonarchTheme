@@ -107,22 +107,15 @@ Each theme now features dedicated, lore-aligned hues for:
 - **Regular Expressions (`string.regexp`)**: Dedicated regex literal highlighting.
 - **Parameters & Constants**: Dedicated colors for function parameters (`variable.parameter`) and readonly constants.
 
-### Scope Block Background Fills
-The entire rectangular space inside an active block (from top opening tag to bottom closing tag) receives a tinted background fill matching the color of that scope's vertical guide line.
+### 4-Tier Depth Architecture (275 Workbench Keys)
+Every theme features a unified 4-tier elevation system (Crust, Mantle, Base, and floating Surface panels) with 275 UI keys per theme, ensuring complete coverage across modern VS Code features (Command Palette glassmorphism, Minimap, Inlay Hints, Diagnostics, Peek View, Git indicators, Code Lens, Notifications, Debug Toolbar, and Notebook Cells).
 
-### Rainbow Indent Lines (All The Time)
-All vertical indent lines from left to right display distinct, low-opacity accent colors (Gold, Cyan, Purple, Red, Green, Indigo), providing clear visual hierarchy without distracting from your code.
-
-### Shadow Monarch Igris & Frost
-We introduced two brand new dark variants inspired by iconic characters and elements from Solo Leveling:
-* **Igris**: Styled after the Red Knight Commander. Built on a dark metallic steel background with vivid blood red keywords, crimson flame tags, and molten gold function declarations.
-* **Frost**: Styled after the Frost Monarch. Built on a glacial deep ice black canvas with vibrant electric cyan keywords, frost blue strings, and ice crystal type definitions.
-
-### Semantic Token & Syntax Expansion
-We expanded our semantic token highlighting engine from 6 to 18 rules per theme, adding support for namespaces, interfaces, generic type parameters, enums, structs, decorators, macros, built-in standard library variables/functions, readonly properties, and methods. In addition, Python (`@decorators`, `self`/`cls`, docstrings), Rust (lifetimes, macros, attributes), Go, Vue, Svelte, Tailwind CSS, SQL, Dockerfiles, YAML, and Shell scripts all receive dedicated color mappings.
-
-### Complete Workbench UI Coverage (208 Color Keys)
-Every theme now boasts 208 workbench UI color keys, providing complete theme coverage across VS Code: Minimap colors & highlights, Inlay Hints (TypeScript/Rust type & parameter hints), Diagnostics (error/warning/info squiggles & overview ruler markers), Peek View (definition & reference popups), Git Merge Conflict headers & Git Gutter indicators, Code Lens, Word Highlights, Symbol Icons, Toast Notifications, Debug Toolbar, Notebook Cells, Settings page, and Progress Bars.
+### S-Tier Visual Polish & Atmosphere
+- **70/30 Neutral Hierarchy**: Delimiters and punctuation (`() {} [] , ; :`) are calibrated to calm secondary tones so that identifiers, functions, and keywords command primary focus.
+- **Atmospheric Line Aura**: Softened line highlight to an elegant ethereal wash (8-10% opacity) that never distracts your eyes.
+- **Calm Indent Guides**: Vertical guides provide clean, subtle indentation scaffolding without overwhelming your code with rainbow noise.
+- **Refined Comment Elegance**: Muted, sophisticated tones (smoldering ash in Ember, glacial mist in Frost, shadow sage in Void/Abyss) that keep documentation easy on the eyes.
+- **LSP Semantic Parity**: Synchronized 18 semantic token rules with TextMate grammars to eliminate any token color flickering when language servers (TypeScript, Pylance, Rust-Analyzer) spin up.
 
 ---
 
